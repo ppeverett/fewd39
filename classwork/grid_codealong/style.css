@@ -1,0 +1,20 @@
+/*css style rules for splitting into halves*/
+.col-6 {
+  border: black solid 1px;
+  width: 50%;
+  height: 100px;
+  float: left;
+  box-sizing: border-box;
+  background-color: orange;
+  color: #FFFFFF
+}
+/*css style rules for splitting into thirds*/
+.col-4 {
+  border: black solid 1px;
+  width: 33.33%;
+  height: 100px;
+  float: left;
+  box-sizing: border-box;
+  background-color: blue;
+  color: #FFFFFF
+}

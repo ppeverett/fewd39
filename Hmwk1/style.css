@@ -38,3 +38,11 @@ img {
 a {
   color: #57C2B3;
 }
+
+.muted {
+  color: #CCCCCC;
+}
+
+.experience {
+  margin-top: 5px;
+}
