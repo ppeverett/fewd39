@@ -1,5 +1,5 @@
 /*css style rules for splitting into halves*/
-.col-6 {
+/*.col-6 {
   border: black solid 1px;
   width: 50%;
   height: 100px;
@@ -7,9 +7,9 @@
   box-sizing: border-box;
   background-color: orange;
   color: #FFFFFF
-}
+}*/
 /*css style rules for splitting into thirds*/
-.col-4 {
+/*.col-4 {
   border: black solid 1px;
   width: 33.33%;
   height: 100px;
@@ -17,4 +17,105 @@
   box-sizing: border-box;
   background-color: blue;
   color: #FFFFFF
+}*/
+
+/*Start of code for Grid exercises*/
+
+div {
+  border: black solid 1px;
+}
+
+
+.stacker1 {
+  width: 33.33%;
+  background-color: blue;
+  height: 200px;
+}
+
+.stacker2 {
+  margin: 0 15%;
+  width: 33.33%;
+  background-color: green;
+  height: 200px;
+}
+
+.stacker3 {
+  height: 200px;
+  background-color: red;
+  margin: 0 33%;
+  width: 33%;
+}
+
+/*start The Mirror CSS*/
+
+.box1 {
+  background-color: red;
+  position:relative;
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+}
+
+.box2 {
+  background-color: blue;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 12%;
+  left: 12%;
+}
+
+.box3 {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  margin: 17%;
+}
+
+.box4 {
+  background-color: green;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  margin: 17%;
+}
+
+/* Start The Skinny CSS*/
+.boxa {
+  background-color: green;
+  height: 35px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.boxb {
+  background-color: black;
+  height: 200px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.boxc {
+  background-color: green;
+  height: 35px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/*Start the Absolute*/
+
+.box10 {
+  background-color: green;
+  height: 500px;
+  width: 75%;
+  position: relative;
+}
+
+.box11 {
+  background-color: red;
+  height: 33%;
+  width: 33%;
+  top: 0;
+  left: 0;
+  position: absolute;
 }
