@@ -5,6 +5,10 @@ body {
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 a {
   font-size: 42px;
   color: red;
@@ -37,7 +41,7 @@ nav li {
   box-sizing: border-box;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: white;
 }
@@ -126,17 +130,21 @@ footer {
 }
 
 footer ul {
-  list-style-type: none;
-  float: left;
   padding: 0;
   color: #cccccc;
+  list-style-type: none;
 }
 
 footer li {
   box-sizing: border-box;
+  display: inline-block;
+}
+
+footer a {
+  color: red;
 }
 
 .copyright {
   color: #cccccc;
-  /*margin-top: 30px 0;*/
+  padding-top: 25px;
 }
