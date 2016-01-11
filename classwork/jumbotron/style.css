@@ -1,0 +1,35 @@
+.container {
+  /*width: 55%;*/
+  /*margin: 20px auto;*/
+}
+
+/*.navbar {
+  margin: 20px 0;
+}*/
+
+.nav {
+  margin: 20px 0 0 0;
+}
+
+.h1 {
+  color: red;
+  font-size: 28px;
+}
+
+.jumbotron {
+  text-align:center;
+}
+
+.divider {
+  border-top: 1px solid #d4d4d4;
+  margin: 15px 0;
+}
+
+.col6 {
+  float: left;
+  width: 50%;
+}
+
+.btn success btn-lg {
+  background-color: green;
+}
