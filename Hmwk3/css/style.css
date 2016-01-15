@@ -6,17 +6,12 @@ body {
   /*border: 1px solid red;*/
 }
 
-.divider {
-  border-top: 1px #ededed solid;
-  margin: 20px 0 50px 0;
-}
-
 .btn {
   background-color: white;
   border: 1px solid #d4d4d4;
 }
 
-..hidden {
-  display: none !important;
-  
+.jumbotron {
+  background-image: url(../images/veg.jpg);
+  text-align:left;
 }
