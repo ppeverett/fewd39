@@ -1,47 +1,6 @@
-// Hmwk Part 1
+***** Hmwk PART 1 *****
 
-// function printNumbers() {
-//   var text = "";
-//   var i;
-//   for (i=0; i<21; i++){
-//     text += "The number is " + i + "<br>";
-//   }
-//   document.getElementById("demo").innerHTML = text;
-// }
-
-
-// For Loop v1
-//  for (i = 0; i<21; i++) {
-//    console.log(i);
-//
-// if(i === 0) {
-//   console.log("Null");
-// } else if (i & 1){
-//   console.log("Odd");
-// } else {
-//   console.log("Even")
-// }
-// }
-
-// For Loop v2
-// function printNumbers() {
-//   var text = "";
-//   var i;
-//   for (i=0; i<21; i++) {
-//     // text += "The number is " + i + "<br>";
-//
-//     if(i === 0) {
-//       text += (i + " is Null" + "<br>");
-//     } else if (i & 1){
-//       text += (i + " is odd" + "<br>");
-//     } else {
-//       text += (i + " is even" + "<br>");
-//     }
-//   }
-//   document.getElementById("demo").innerHTML = text;
-// }
-
-For Loop v3
+// For Loop v3
 for (var i = 0; i<21; i++) {
 if (i % 2 === 0) {
  console.log (i + "is even");
@@ -49,25 +8,26 @@ if (i % 2 === 0) {
  console.log (i + "is odd");
 }}
 
-//While Loop
-// function wprintNumbers() {
-//   var text = "";
-//   var i;
-//   while (i) {
-//     // text += "The number is " + i + "<br>";
-//
-//     if(i === 0) {
-//       text += (i + " is Null" + "<br>");
-//     } else if (i & 1){
-//       text += (i + " is odd" + "<br>");
-//     } else {
-//       text += (i + " is even" + "<br>");
-//     }
-//   }
-//   document.getElementById("demo2").innerHTML = text;
-// }
+//For Loop from Class 6
+for (var i=0;i<21:i+=2) {
+  console.log(i+ " is even");
+}
 
-// Hmwk PART 2
+//While Loop
+
+var i=0;
+
+while(i<21) {
+  if(i%2 === 0) {
+    console.log(i + " is even");
+  } else {
+    console.log(i + "is odd");
+  }
+  i++;
+}
+
+
+***** Hmwk PART 2 *****
 
 // Max part 1
 var a= prompt ("enter your first number");
@@ -99,3 +59,21 @@ var x = function maxofThree(a,b,c) {
 }}
 
   x(a,b,c);
+
+//Mathmax from Class 6
+function max(num1, num2) {
+  if (num1 > num2) {
+    return num1
+  }
+ else {
+  return num2
+}
+}
+max(1,2);
+
+// Max of three from Class 6
+function maxofThree(num1, num2, num3) {
+  return Math.max(num1, num2, num3);
+}
+  maxofThree(4,5,6);
+}
