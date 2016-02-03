@@ -1,7 +1,56 @@
 body {
+  padding-top: 70px;
+}
+#photo1 {
+  margin-top: 7%;
+}
+
+#headshot {
+  height: 200px;
+  margin: 0,50px,0,0;
+}
+
+#hmwk {
+  margin-top: 5%;
+}
+
+.bio-text {
+  margin: 0, 0, 0, 2%;
+}
+
+.banner {
+  background:url(images/barnsiding.jpg) center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 200px;
+  width:100%;
+  /*position:relative;*/
+}
+
+.user-info-text {
+	color: white;
+	border-radius:5px;
+	padding:15px;
+	margin-top:20px;
+	background-color:black;
+	background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,1));
+}
+}
+
+#ga {
+  height: 30px;
+  width: 30px;
+}
+
+.logo {
+  font-size: 36px;
+}*/
+
+body {
   font-family: Open Sans;
   display: block;
   background-color: #999393;
+  padding-top: 70px;
 }
 
 header {
@@ -43,7 +92,6 @@ nav a {
 }
 
 .ga {
-  /*background-color: #4A4A4A;*/
   width: 100%;
 }
 
@@ -63,7 +111,6 @@ nav a {
 .ga li {
   float: left;
   margin: 2px 2px 2px 2px;
-  /*padding: 5px 40px;*/
   text-align: center;
   box-sizing: border-box;
   list-style-type: none;
