@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 2</title>
+  </head>
+  <style media="screen">
+    .green {
+      color: green;
+    }
+    #fontsize100 {
+      font-size: 100px;
+    }
+  </style>
+  <body>
+    <h1>H there</h1>
+      <ul>
+        <li class="green">list item 1</li>
+        <button type="button" name="button">Submit</button>
+      </ul>
+  </body>
+  <script>
+    //created a new element ("li"), child to the ul
+    var listItem = document.createElement("li");
+    listItem.textContent = "my first list item!";
+    document.querySelector("ul");
+
+    //listItem.setAttribute("class", "green");
+    listItem.className = "green";
+
+    //setting an id attribute
+    listItem.setAttribute("id", "fontsize100");
+
+    //creating a new element img and setting attributes
+    document.createElement("img");
+    var image = document.createElement("img");
+
+    image.setAttribute("src", "https://i.ytimg.com/vi/ZR5t4kXyVns/maxresdefault.jpg");
+    document.querySelector("ul")
+
+    //grabbed, or selected the parent "ul"
+    var ul = document.querySelector("ul");
+
+    //putting the parent and child together
+    ul.appendChild(listItem);
+    ul.appendChild(image);
+
+  </script>
+</html>
