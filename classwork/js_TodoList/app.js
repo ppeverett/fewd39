@@ -6,11 +6,11 @@
 
 
 
-
+// Vanilla JS version
 // var form = document.querySelector("#new-todo-item-form");
 // var input = document.querySelector("#new-todo-item-input");
 // var list = document.querySelector("#todo-list");
-
+//
 // function createItem(todo) {
 //   var listItem = document.createElement("li");
 //   listItem.textContent = todo;
@@ -32,15 +32,38 @@
 // form.addEventListener("submit", formSubmitted);
 
 // jQuery
-var $form = $("#new-todo-item-form");
-var $input = $("#new-todo-item-input");
-var $list = $("#todo-list");
+// var $form = $("#new-todo-item-form");
+// var $input = $("#new-todo-item-input");
+// var $list = $("#todo-list");
+//
+// $form.on("submit", formSubmitted);
+//
+// function formSubmitted(event){
+//   event.preventDefault();
+//   var newListItem = "<li>" + $input.val() + "</li>";
+//   $list.append(newListItem);
+//   $form[0].reset();
+// }
 
-$form.on("submit", formSubmitted);
+// Class 8 exercise - doing it again
 
-function formSubmitted(event){
-  event.preventDefault();
-  var newListItem = "<li>" + $input.val() + "</li>";
-  $list.append(newListItem);
-  $form[0].reset();
+//setting up - grabbing things...
+// ==================================
+var form = document.querySelector("#new-todo-item-form");
+var input = document.querySelector("#new-todo-item-input");
+var parent = document.querySelector("#todo-list");
+
+function addListItem (todo) {
+  var listItem = document.createElement("li");
+  listItem.textContent = todo;
+
+  parent.appendChild(listItem);
 }
+
+function formSubmitted(event) {
+  event.preventDefault();
+  addListItem(input.value);
+  form.reset();
+}
+
+form.addEventListener("submit", formSubmitted);

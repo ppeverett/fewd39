@@ -1,8 +1,7 @@
 body {
   padding-top: 70px;
-}
-#photo1 {
-  margin-top: 7%;
+  background:url(images/barnsiding.jpg) center no-repeat fixed;
+  background-size: cover;
 }
 
 #headshot {
@@ -10,16 +9,12 @@ body {
   margin: 0,50px,0,0;
 }
 
-#hmwk {
-  margin-top: 5%;
-}
-
 .bio-text {
   margin: 0, 0, 0, 2%;
 }
 
 .banner {
-  background:url(images/barnsiding.jpg) center no-repeat;
+  /*background:url(images/barnsiding.jpg) center no-repeat;*/
   background-attachment: fixed;
   background-size: cover;
   min-height: 200px;
@@ -80,11 +75,11 @@ nav {
 
 nav li {
   float: left;
-  padding: 20px 40px;
+  /*padding: 10px 40px;*/
   text-align: center;
   box-sizing: border-box;
   list-style-type: none;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 nav a {
@@ -97,7 +92,7 @@ nav a {
 
 .gaimage {
   float: left;
-  margin:0 2%;
+  margin:2% 2%;
 }
 
 .hmwk {
