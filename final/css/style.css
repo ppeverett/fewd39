@@ -1,0 +1,40 @@
+/*.donkey {
+  margin: 0 20px 0 0;
+}
+
+.elephant {
+  margin: 0 0 0 2%;
+}*/
+
+body { padding-top: 70px; }
+
+footer {
+  text-align: center;
+}
+.title {
+  margin: 0 20px;
+}
+
+.active {
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+.dem {
+  float: left;
+  border: #0000FF solid 5px;
+  opacity: .80;
+  margin: 2% 0;
+  color: #000000;
+}
+
+.rep {
+  float: right;
+  background-color: ;
+  border: #DE0100 solid 5px;
+  margin: 2% 0;
+}
