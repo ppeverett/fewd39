@@ -1,0 +1,54 @@
+	/*********** GLOBAL STYLES ***********/
+
+	body,
+	html {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#map-canvas {
+		height: 80%;
+	}
+
+	li {
+		list-style-type: none;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	/*********** LAYOUT ***********/
+
+	header {
+		background: green;
+		height: 10%;
+	}
+
+	section {
+		background: pink;
+		height: 80%;
+	}
+
+	aside {
+		background: yellow;
+		height: 80%;
+	}
+
+	footer {
+		background: orange;
+		height: 10%;
+		width: 100%;
+
+	}
+
+	/*********** OTHER STYLES ***********/
+
+	.right {
+		padding: 20px;
+		height: 100%;
+		overflow: auto;
+	}
+
+	/*********** MEDIA QUERIES ***********/
