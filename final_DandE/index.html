@@ -61,11 +61,28 @@
     </div>
     <div class="dem col-xs-9">
       <div class="background">
-        https://api.twitter.com/1.1/search/tweets.json?q=from%3Aberniesanders%20OR%20from%3Ahillaryclinton&src=typd
+        <a class="twitter-timeline" href="https://twitter.com/BernieSanders" data-widget-id="698626932720562176">Tweets by @BernieSanders</a>
+      </div>
+    </div>
+    <div class="dem col-xs-9">
+      <div class="background">
+        <a class="twitter-timeline"
+          data-widget-id="{widget_id}"
+          href="https://twitter.com/{screen_name}/lists/{slug}"
+          data-list-owner-screen-name="{screen_name}"
+          data-list-slug="{slug}">
+        Tweets from https://twitter.com/{screen_name}/lists/{slug}
+        </a>
       </div>
     </div>
   </div>
-
+  <a class="twitter-timeline"
+    data-widget-id="{widget_id}"
+    href="https://twitter.com/{screen_name}/lists/{slug}"
+    data-list-owner-screen-name="{screen_name}"
+    data-list-slug="{slug}">
+  Tweets from https://twitter.com/{screen_name}/lists/{slug}
+  </a>
     <!-- Footer -->
     <footer>
       <div>
@@ -90,6 +107,7 @@
     <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
       <!-- Twitter -->
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <!-- My JS -->
       <script src="js/app.js"></script>
