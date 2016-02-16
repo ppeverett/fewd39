@@ -1,11 +1,3 @@
-/*.donkey {
-  margin: 0 20px 0 0;
-}
-
-.elephant {
-  margin: 0 0 0 2%;
-}*/
-
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +6,10 @@ body {
   padding-top: 70px;
   text-align: center;
   /*background-color: #A4A482;*/
+}
+
+header {
+  margin-bottom: 2%;
 }
 
 .head {
@@ -27,48 +23,35 @@ body {
   background: #474745;
   margin: auto;
 }
-footer {
-  text-align: center;
-}
-.title {
-  margin: 0 20px;
-}
 
 .navbar-header {
   width: 100%;
   display: inline;
 }
 
-.active {
-  width: 100%;
-  text-align: center;
+h3  {
+  margin-bottom: 5%;
 }
 
-h3 {
-  font-size: 1em;
+ul {
+  list-style-type: none;
 }
 
-.twitter-tweet {
-  width: 50%;
+li  {
+  padding: 5%;
+  margin: 5%;
+  border: solid 1px red;
 }
 
-.dem {
-  float: left;
-  /*border: #0000FF solid 5px;*/
-  opacity: .80;
-  margin: 0 auto;
-  color: #000000;
-  background-color: #5892CD;
+.tweets {
+  height: 50%;
+  padding-bottom: 20%;
 }
 
-.rep {
-  float: right;
+.dem-names li {
+  background color: #5892CD;
+}
+
+.rep-names li {
   background-color: #DE0100;
-  /*border: #DE0100 solid 5px;*/
-  margin: 2% 0;
-}
-
-.background {
-  /*background-color: #DE0100;*/
-
 }
