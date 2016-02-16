@@ -21,13 +21,14 @@ header {
 
 .navbar {
   background: #474745;
-  margin: auto;
+  /*margin: auto;*/
 }
 
 .navbar-header {
   width: 100%;
   display: inline;
 }
+
 
 h3  {
   margin-bottom: 5%;
@@ -40,18 +41,29 @@ ul {
 li  {
   padding: 5%;
   margin: 5%;
-  border: solid 1px red;
+  /*border: solid 1px red;*/
 }
+
 
 .tweets {
   height: 50%;
   padding-bottom: 20%;
 }
 
-.dem-names li {
-  background color: #5892CD;
+.dem_names li {
+  background-color: #5892CD;
+  color: #ffffff;
 }
 
-.rep-names li {
+.dem_names li:hover {
+  background-color: #79a7d7;
+}
+
+.rep_names li {
   background-color: #DE0100;
+  color: #ffffff;
+}
+
+.rep_names li:hover {
+  background-color: #e43332;
 }
