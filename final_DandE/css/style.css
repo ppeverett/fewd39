@@ -16,6 +16,10 @@ body {
   /*background-color: #A4A482;*/
 }
 
+footer {
+  width: 100%;
+}
+
 .head {
   display: inline;
   color: #ffffff;
@@ -27,9 +31,11 @@ body {
   background: #474745;
   margin: auto;
 }
+
 footer {
   text-align: center;
 }
+
 .title {
   margin: 0 20px;
 }
@@ -52,11 +58,16 @@ h3 {
   width: 50%;
 }
 
+.twitter-timeline {
+  width: 25%;
+  height: 25%;
+}
+
 .dem {
   float: left;
   /*border: #0000FF solid 5px;*/
   opacity: .80;
-  margin: 0 auto;
+  margin: 1% auto;
   color: #000000;
   background-color: #5892CD;
 }
@@ -65,10 +76,10 @@ h3 {
   float: right;
   background-color: #DE0100;
   /*border: #DE0100 solid 5px;*/
-  margin: 2% 0;
+  margin: 1% auto;
 }
 
 .background {
   /*background-color: #DE0100;*/
-
+  height: 10%;
 }
