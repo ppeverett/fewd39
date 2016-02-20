@@ -75,6 +75,7 @@
 
     $('#kasi').on('click', function() {
       $('div.tweets').html("<a class='twitter-timeline' href='https://twitter.com/JohnKasich' data-widget-id='700027072077410304'>Tweets by @JohnKasich</a>");
+      
       twttr.widgets.load();
       // $('div.tweets').empty();
     });
@@ -88,7 +89,7 @@
 
     $('#trum').on('click', function() {
       $('div.tweets').html("<a class='twitter-timeline' href='https://twitter.com/realDonaldTrump' data-widget-id='699321496989093888'>Tweets by @realDonaldTrump</a>");
-      
+
       twttr.widgets.load();
       // $('div.tweets').empty();
     });
