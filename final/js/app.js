@@ -1,3 +1,12 @@
+
+// Test that jquery works on CSS
+    // $('#hill').on('click', function(){
+    //   $('.tweets').css('background','yellow');
+    // });
+    // $('#bern').on('click', function(){
+    //   $('.tweets').css('background','green');
+    // });
+
 // First Attempt - simple
     // $('#hill').on('click', function() {
     //   $('.tweets').append('<a class="twitter-timeline" href="https://twitter.com/HillaryClinton" data-widget-id="699313292494241792">Tweets by @HillaryClinton</a>');
@@ -7,13 +16,20 @@
 // Second Attempt - using var
     // var ahref = '<a class="twitter-timeline" href="https://twitter.com/HillaryClinton" data-widget-id="699313292494241792">Tweets by @HillaryClinton</a>';
 
+// Third Attempt - using add attribute method
+    // $('#bern').on('click', function() {
+    //   $('#twitter-timeline').attr('href', 'https://twitter.com/berniesanders');
+    //   $('a.twitter-timeline').attr('data-widget-id','698626932720562176');
+    // });
+
     $('#hill').on('click', function() {
       $('div.tweets').html("<a class='twitter-timeline' href='https://twitter.com/HillaryClinton' data-widget-id='699313292494241792'>Tweets by @HillaryClinton</a>");
       // $('div.tweets').empty();
     });
 
     $('#bern').on('click', function() {
-      $('div.tweets').html("<a class='twitter-timeline' href='https://twitter.com/berniesanders' data-widget-id='698626932720562176'>Tweets by @BernieSanders</a>");
+      $('div.tweets').html("<a class='twitter-timeline animated slideInRight' href='https://twitter.com/berniesanders' data-widget-id='698626932720562176'>Tweets by @BernieSanders</a>");
+
       // $('div.tweets').empty();
     });
 
@@ -46,30 +62,3 @@
       $('div.tweets').html("<a class='twitter-timeline' href='https://twitter.com/realDonaldTrump' data-widget-id='699321496989093888'>Tweets by @realDonaldTrump</a>");
       // $('div.tweets').empty();
     });
-
-    window.twttr = (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0],
-        t = window.twttr || {};
-      if (d.getElementById(id)) return t;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "https://platform.twitter.com/widgets.js";
-      fjs.parentNode.insertBefore(js, fjs);
-
-      t._e = [];
-      t.ready = function(f) {
-        t._e.push(f);
-      };
-
-      return t;
-    }(document, "script", "twitter-wjs"));
-
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-
-// Test that jquery works on CSS
-    // $('#hill').on('click', function(){
-    //   $('.tweets').css('background','yellow');
-    // });
-    // $('#bern').on('click', function(){
-    //   $('.tweets').css('background','green');
-    // });
